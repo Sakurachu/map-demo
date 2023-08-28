@@ -28,14 +28,14 @@ menu:
       
 
 devTools:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
+  - name: ChatGPT
+    url: https://chat.sakurachu.cn/
+    img: url(https://chat.sakurachu.cn/favicon.ico)
+    description: ChatGPT
+  - name: NewBing
+    url: https://bing.sakurachu.xyz/
+    img: url(https://bing.sakurachu.xyz/favicon.ico)
+    description: NewBingAI，可以直接绘画
   - name: Github
     url: https://github.com/
     img: /images/logos/github.png
@@ -66,14 +66,9 @@ hotTools:
     url: https://www.geekyes.com/
     img: /images/logos/blog-logo.png
     description: 欢迎访问
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
+
+
+
   - name: Github
     url: https://github.com/
     img: /images/logos/github.png

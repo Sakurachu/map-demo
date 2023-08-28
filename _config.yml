@@ -3,17 +3,17 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: 极客角落 网站导航
-subtitle: ''
-description: ''
-keywords:
-author: 极客角落
+title: Sakura 网站导航
+subtitle: '网站导航工具箱'
+description: '集成最前沿网络工具的导航网站'
+keywords: ChatGPT NewBing
+author: 楚子航
 language: zh-CN
 timezone: 'Asia/Shanghai'
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: http://example.com
+url: https://www.sakurachu.cn
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
