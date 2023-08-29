@@ -30,15 +30,15 @@ menu:
 devTools:
   - name: ChatGPT
     url: https://chat.sakurachu.cn/
-    img: url(https://chat.sakurachu.cn/favicon.ico)
+    img: /images/logos/chat.png
     description: ChatGPT
   - name: NewBing
     url: https://bing.sakurachu.xyz/
-    img: url(https://bing.sakurachu.xyz/favicon.ico)
-    description: NewBingAI，可以直接绘画
+    img: /images/logos/bing.png
+    description: NewBingAI
   - name: Github
     url: https://github.com/
-    img: /images/logos/github.png
+    img: https://github.com//favicon.ico
     description: 代码仓库
   - name: Github
     url: https://github.com/
@@ -62,21 +62,18 @@ devTools:
     description: 代码仓库
   
 hotTools:
-  - name: 极客角落geekyes
-    url: https://www.geekyes.com/
+  - name: Sakura
+    url: https://www.sakurachu.cn/
     img: /images/logos/blog-logo.png
     description: 欢迎访问
-
-
-
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
+  - name: ChatGPT
+    url: https://chat.sakurachu.cn/
+    img: /images/logos/chat.png
+    description: ChatGPT
+  - name: NewBing
+    url: https://bing.sakurachu.xyz/
+    img: /images/logos/bing.png
+    description: NewBingAI
   - name: Github
     url: https://github.com/
     img: /images/logos/github.png
@@ -111,16 +108,16 @@ about:
 
 aboutPage:
   website:
-    head: 欢迎访问极客角落geekyes为您制作的示范导航页
-    html: '<blockquote><p>这是一个WebStack网址导航网站，源于ViggoZ的开源项目，开源地址<a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank" rel="noopener">WebStackPage</a>。</p>
+    head: 欢迎访问Sakura制作的导航页
+    html: '<blockquote><p>这是一个网址导航网站，集成了网络上大多数最新且好用的工具，开源地址<a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank" rel="noopener">WebStackPage</a>。</p>
  本导航站基于hexo博客程序、<a href="https://github.com/HCLonely/hexo-theme-webstack" target="_blank" rel="noopener">hexo-theme-webstack</a>主题模板、github、vercel 搭建而成。</p></blockquote>'
   webmaster:
     head: 关于主站
-    name: 极客角落geekyes
-    url: https://www.geekyes.com
+    name: Sakura导航页
+    url: https://www.sakurachu.cn
     img: /images/logos/blog-logo.png
     description: 交流分享互联网科技
-    html: '<br /><blockquote><p>同时欢迎访问极客角落<a href="https://www.geekyes.com" target="_blank" rel="noopener"> geekyes</a> 获取更多内容。</p></blockquote>'
+    html: '<br /><blockquote><p>同时欢迎访问个人博客<a href="https://blog.sakurachu.cn" target="_blank" rel="noopener"> Sakura</a> 获取更多内容。</p></blockquote>'
 
 since: 2020
 
