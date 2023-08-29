@@ -27,10 +27,10 @@ menu:
     config: devTools
   - name: 学习资料
     icon: fas fa-book
-    config: Students
-  - name: 游戏娱乐
-    icon: fas fa-gamepad
-    config: Games
+    config: Student
+#  - name: 游戏娱乐
+#    icon: fas fa-gamepad
+#    config: Games
       
 
 devTools:
@@ -117,7 +117,7 @@ news:
     description: emoji小图标
 
 
-Students:
+Student:
   - name: 安娜的档案
     url: https://zh.annas-archive.org/
     img: https://zh.annas-archive.org/favicon.ico
@@ -140,11 +140,11 @@ Students:
     description: 打字测试
 
 
-Games:
-  - name: 安娜的档案
-    url: https://indienova.com/steam/discount/4-0-0-0-0-0-0-0-0/p/1
-    img: https://indienova.com/favicon.ico
-    description: 游戏折扣
+#Games:
+#  - name: 安娜的档案
+#    url: https://indienova.com/steam/discount/4-0-0-0-0-0-0-0-0/p/1
+#    img: https://indienova.com/favicon.ico
+#    description: 游戏折扣
 
 about:
   url: /about/
