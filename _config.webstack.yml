@@ -91,10 +91,6 @@ news:
     url: https://smartmockups.com/zh/
     img: https://smartmockups.com/zh/favicon.ico
     description: 生成样机产品实景图
-  - name: Project Gutenberg
-    url: https://www.gutenberg.org/
-    img: https://www.gutenberg.org/favicon.ico
-    description: 书籍文档下载
   - name: 彼岸图网
     url: https://pic.netbian.com/
     img: /images/logos/bianwang.ico
@@ -126,6 +122,10 @@ Student:
     url: https://zh.annas-archive.org/
     img: https://zh.annas-archive.org/favicon.ico
     description: 书籍下载🚀
+  - name: Project Gutenberg
+    url: https://www.gutenberg.org/
+    img: https://www.gutenberg.org/favicon.ico
+    description: 书籍文档下载
   - name: Doyoudo
     url: https://www.doyoudo.com/
     img: https://www.doyoudo.com/favicon.ico
