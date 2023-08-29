@@ -37,8 +37,12 @@
 - name: 123APPS
   url: https://123apps.com/cn/
   img: https://123apps.com/favicon.ico
-  description: 在线多媒体剪辑工具合集、
+  description: 在线多媒体剪辑工具合集
 - name: StarryFrp
   url: https://frp.starryfrp.com/
   img: https://frp.starryfrp.com/favicon.ico
   description: 免费的内网穿透
+- name: 谷歌翻译
+  url: https://translate.google.com.hk/?sl=en&tl=zh-CN&op=translate/
+  img: https://translate.google.com.hk/favicon.ico
+  description: 最好的翻译

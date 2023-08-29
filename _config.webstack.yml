@@ -26,7 +26,7 @@ menu:
     icon: fas fa-tools
     config: devTools
   - name: 学习
-    icon: fas fa-tools
+    icon: fas fa-book
     config: Student
       
 
@@ -75,7 +75,6 @@ hotTools:
     img: /images/logos/github.png
     description: 建设中...
 
-
    
 news:
   - name: Videvo
@@ -90,27 +89,42 @@ news:
     url: https://smartmockups.com/zh/
     img: https://smartmockups.com/zh/favicon.ico
     description: 生成样机产品实景图
-  - name: Bookboon
-    url: https://bookboon.com/zh
-    img: https://bookboon.com/favicon.ico
-    description: 书籍下载
   - name: 谷登堡计划
     url: https://www.gutenberg.org/
     img: https://www.gutenberg.org/favicon.ico
     description: 书籍文档下载
   - name: 彼岸图网
     url: https://pic.netbian.com/
-    img: https://pic.netbian.com/favicon.ico
+    img: /images/logos/bianwang.ico
     description: 4K壁纸下载
   - name: IOSPA
     url: https://www.iosipa.cn/
     img: https://www.iosipa.cn/favicon.ico
     description: 免费IOS软件
+
+
 Student:
-  - name: ChatGPT
-    url: https://chat.sakurachu.cn/
-    img: /images/logos/chat.png
-    description: ChatGPT
+  - name: Bookboon
+    url: https://bookboon.com/zh/
+    img: https://bookboon.com/favicon.ico
+    description: 书籍下载
+  - name: Bookboon
+    url: https://www.doyoudo.com/
+    img: https://www.doyoudo.com/favicon.ico
+    description: 书籍下载
+  - name: WILEY
+    url: https://onlinelibrary.wiley.com/journal/10970312
+    img: https://onlinelibrary.wiley.com/favicon.ico
+    description: 数学期刊
+  - name: WILEY
+    url: https://annals.math.princeton.edu/
+    img: /images/logos/Annals.png
+    description: 数学期刊
+  - name: KuKu
+    url: https://dazi.kukuw.com/
+    img: https://dazi.kukuw.com/favicon.ico
+    description: 打字测试
+
 
 about:
   url: /about/
