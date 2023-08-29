@@ -24,7 +24,7 @@
   description: 找到更好的替代品
 - name: No More Ransom
   url: https://www.nomoreransom.org/zh/
-  img: https://www.nomoreransom.org/favicon.ico
+  img: /images/logos/No More Ransom.png
   description: 解救被勒索的文件
 - name: Github
   url: https://github.com/
