@@ -59,7 +59,7 @@ devTools:
     img: https://www.yciyun.com/favicon.ico
     description: 全能词云生成工具
 
-  
+
 hotTools:
   - name: Sakura
     url: https://www.sakurachu.cn/
@@ -78,7 +78,6 @@ hotTools:
     img: /images/logos/github.png
     description: 建设中🚧...
 
-   
 news:
   - name: Videvo
     url: https://www.videvo.net/
@@ -141,9 +140,7 @@ Students:
     description: 打字测试
 
 
-
-
-Game:
+Games:
   - name: 安娜的档案
     url: https://indienova.com/steam/discount/4-0-0-0-0-0-0-0-0/p/1
     img: https://indienova.com/favicon.ico
