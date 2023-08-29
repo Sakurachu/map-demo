@@ -25,6 +25,9 @@ menu:
   - name: 灵感设计
     icon: fas fa-tools
     config: devTools
+  - name: 学习
+    icon: fas fa-tools
+    config: Student
       
 
 devTools:
@@ -103,7 +106,11 @@ news:
     url: https://www.iosipa.cn/
     img: https://www.iosipa.cn/favicon.ico
     description: 免费IOS软件
-
+Student:
+  - name: ChatGPT
+    url: https://chat.sakurachu.cn/
+    img: /images/logos/chat.png
+    description: ChatGPT
 
 about:
   url: /about/
