@@ -86,7 +86,7 @@ news:
   - name: Smartmockups
     url: https://smartmockups.com/zh/
     img: https://smartmockups.com/zh/favicon.ico
-    description: 在线快速生成样机产品实景图
+    description: 生成样机产品实景图
   
 about:
   url: /about/
