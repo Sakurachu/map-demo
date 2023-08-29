@@ -87,7 +87,24 @@ news:
     url: https://smartmockups.com/zh/
     img: https://smartmockups.com/zh/favicon.ico
     description: 生成样机产品实景图
-  
+  - name: Bookboon
+    url: https://bookboon.com/zh
+    img: https://bookboon.com/favicon.ico
+    description: 书籍下载
+  - name: 彼岸图网
+    url: https://pic.netbian.com/
+    img: https://pic.netbian.com/favicon.ico
+    description: 4K壁纸下载
+  - name: WallpaperAbyss
+    url: https://wall.alphacoders.com/
+    img: https://wall.alphacoders.com/favicon.ico
+    description: 壁纸下载
+  - name: IOSPA
+    url: https://www.iosipa.cn/
+    img: https://www.iosipa.cn/favicon.ico
+    description: 免费IOS软件
+
+
 about:
   url: /about/
   icon: far fa-heart
