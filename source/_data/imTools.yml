@@ -1,3 +1,11 @@
+- name: Icons8
+  url: https://igoutu.cn/
+  img: /images/logos/Icons8.png
+  description: 设计师们的想法
+- name: Icons8
+  url: https://zh.recompressor.com/
+  img: /images/logos/Recompressor.png
+  description: 精准的图片压缩
 - name: PDF24 Tool
   url: https://tools.pdf24.org/zh/
   img: https://tools.pdf24.org/favicon.ico
@@ -17,7 +25,7 @@
 - name: I ❤ IMG
   url: https://www.iloveimg.com/zh-cn
   img: https://www.iloveimg.com/favicon.ico
-  description: 全能图片处理工具集
+  description: 全能图片处理工具
 - name: AlternativeTo
   url: https://alternativeto.net/
   img: https://alternativeto.net/favicon.ico
@@ -29,7 +37,7 @@
 - name: Bigjpg
   url: https://bigjpg.com/
   img: https://bigjpg.com/favicon.ico
-  description: AI放大模糊的小图素材
+  description: AI放大模糊的小图
 - name: Convertio
   url: https://convertio.co/zh/
   img: https://convertio.co/favicon.ico
@@ -37,12 +45,12 @@
 - name: 123APPS
   url: https://123apps.com/cn/
   img: https://123apps.com/favicon.ico
-  description: 在线多媒体剪辑工具合集
+  description: 多媒体剪辑工具合集
 - name: StarryFrp
   url: https://frp.starryfrp.com/
   img: https://frp.starryfrp.com/favicon.ico
   description: 免费的内网穿透
-- name: Deelp
-  url: hhttps://www.deepl.com/translator/
+- name: Deepl
+  url: https://www.deepl.com/translator/
   img: https://static.deepl.com/img/logo/DeepL_Logo_darkBlue_v2.svg
   description: 可以翻译文件

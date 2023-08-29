@@ -46,7 +46,7 @@ devTools:
   - name: Gradientify
     url: https://www.iconshock.com/svg-icons/
     img: https://www.iconshock.com/svg-icons/favicon.ico
-    description: 渐变色矢量图标设计
+    description: 渐变矢量图标设计
   - name: illlustrations
     url: https://illlustrations.co/
     img: /images/logos/illlustrations.jpg
@@ -54,7 +54,7 @@ devTools:
   - name: 易词云
     url: https://www.yciyun.com/
     img: https://www.yciyun.com/favicon.ico
-    description: 全能的词云生成工具
+    description: 全能词云生成工具
 
   
 hotTools:
@@ -65,11 +65,11 @@ hotTools:
   - name: ChatGPT
     url: https://chat.sakurachu.cn/
     img: /images/logos/chat.png
-    description: ChatGPT
+    description: 国内可访问
   - name: NewBing
     url: https://bing.sakurachu.xyz/
     img: /images/logos/bing.png
-    description: NewBingAI
+    description: 国内可访问
   - name: 个人博客
     url: https://blog.sakurachu.cn/
     img: /images/logos/github.png
@@ -101,6 +101,15 @@ news:
     url: https://www.iosipa.cn/
     img: https://www.iosipa.cn/favicon.ico
     description: 免费IOS软件
+  - name: Dreamstime
+    url: https://cn.dreamstime.com/free-photos/
+    img: https://cn.dreamstime.com/favicon.ico
+    description: 免费照片类图库
+  - name: Music maker
+    url: https://musicmaker.site/
+    img: /images/logos/Musicmaker.jpg
+    description: 免费背景音乐
+
 
 
 Student:
@@ -124,6 +133,10 @@ Student:
     url: https://dazi.kukuw.com/
     img: https://dazi.kukuw.com/favicon.ico
     description: 打字测试
+- name: 模拟攒机
+    url: https://zj.zol.com.cn/
+    img: https://zj.zol.com.cn/favicon.ico
+    description: 装机清单预估
 
 
 about:
