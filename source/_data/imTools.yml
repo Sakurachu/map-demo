@@ -1,31 +1,31 @@
-- name: Github
-  url: https://github.com/
-  img: /images/logos/github.png
-  description: 代码仓库 
-- name: Github
-  url: https://github.com/
-  img: /images/logos/github.png
-  description: 代码仓库 
-- name: Github
-  url: https://github.com/
-  img: /images/logos/github.png
-  description: 代码仓库   
-- name: Github
-  url: https://github.com/
-  img: /images/logos/github.png
-  description: 代码仓库  
-- name: Github
-  url: https://github.com/
-  img: /images/logos/github.png
-  description: 代码仓库 
-- name: Github
-  url: https://github.com/
-  img: /images/logos/github.png
-  description: 代码仓库 
-- name: Github
-  url: https://github.com/
-  img: /images/logos/github.png
-  description: 代码仓库 
+- name: PDF24 Tool
+  url: https://tools.pdf24.org/zh/
+  img: https://tools.pdf24.org/zh/favicon.ico
+  description: PDF工具箱
+- name: PowerBi
+  url: https://powerbi.microsoft.com/zh-cn/
+  img: https://powerbi.microsoft.com/zh-cn/favicon.ico
+  description: 微软数据可视化工具
+- name: Trace
+  url: https://www.stickermule.com/trace
+  img: https://www.stickermule.com/trace/favicon.ico
+  description: 简易在线抠图
+- name: 百度指数
+  url: https://index.baidu.com/v2/
+  img: https://index.baidu.com/v2/favicon.ico
+  description: 人们的关注点
+- name: I ❤ IMG
+  url: https://www.iloveimg.com/zh-cn
+  img: https://www.iloveimg.com/zh-cn/favicon.ico
+  description: 全能图片处理工具集
+- name: AlternativeTo
+  url: https://alternativeto.net/
+  img: https://alternativeto.net/favicon.ico
+  description: 找到更好的替代品
+- name: No More Ransom
+  url: https://www.nomoreransom.org/zh/
+  img: https://www.nomoreransom.org/zh/favicon.ico
+  description: 解救被勒索的文件
 - name: Github
   url: https://github.com/
   img: /images/logos/github.png
