@@ -58,7 +58,7 @@ hotTools:
   - name: Sakura
     url: https://www.sakurachu.cn/
     img: /images/logos/blog-logo.png
-    description: Welcome to visit
+    description: Welcome🌸
   - name: ChatGPT
     url: https://chat.sakurachu.cn/
     img: /images/logos/chat.png
@@ -101,7 +101,7 @@ aboutPage:
     <p>我们不断更新和添加新的工具和资源，确保你始终能够找到最新、最有用的内容。通过我的网站，你可以省去在不同网站之间切换的麻烦，一站式获取你所需的一切。</p>
     <p>无论你是学生、工程师、设计师还是任何对技术和创意感兴趣的人，我的网站都能为你提供帮助和支持。</p>
     <p>请随时浏览我的网站，并将它添加到你的书签中，方便你随时访问。如果你有任何建议或需要帮助，请联系我们，我们将尽力满足你的需求。</p>
-    <p>没错，这个网页介绍就是我用AI生成的~</p>
+    <p>没错，这个网页介绍就是AI生成的~</p>
     </blockquote>'
   webmaster:
     head: 关于主站
