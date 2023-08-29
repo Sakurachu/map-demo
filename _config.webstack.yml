@@ -52,10 +52,7 @@ devTools:
     url: https://www.yciyun.com/
     img: https://www.yciyun.com/favicon.ico
     description: 全能的词云生成工具
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
+
   
 hotTools:
   - name: Sakura
@@ -70,14 +67,11 @@ hotTools:
     url: https://bing.sakurachu.xyz/
     img: /images/logos/bing.png
     description: NewBingAI
-  - name: Github
-    url: https://github.com/
+  - name: 个人博客
+    url: https://blog.sakurachu.cn/
     img: /images/logos/github.png
-    description: 代码仓库
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
+    description: 建设中...
+
 
    
 news:
@@ -85,14 +79,14 @@ news:
     url: https://www.videvo.net/
     img: https://www.videvo.net/favicon.ico
     description: 免费视频素材
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
+  - name: Mixkit
+    url: https://mixkit.co/
+    img: https://mixkit.co/favicon.ico
+    description: 高质量免费视频
+  - name: Smartmockups
+    url: https://smartmockups.com/zh/
+    img: https://smartmockups.com/zh/favicon.ico
+    description: 在线快速生成样机产品实景图
   
 about:
   url: /about/
@@ -101,9 +95,14 @@ about:
 
 aboutPage:
   website:
-    head: 欢迎访问Sakura制作的导航页
-    html: '<blockquote><p>这是一个网址导航网站，集成了网络上大多数最新且好用的工具，开源地址<a href="https://github.com/WebStackPage/WebStackPage.github.io" target="_blank" rel="noopener">WebStackPage</a>。</p>
- 本导航站基于hexo博客程序、<a href="https://github.com/HCLonely/hexo-theme-webstack" target="_blank" rel="noopener">hexo-theme-webstack</a>主题模板、github、vercel 搭建而成。</p></blockquote>'
+    head: 欢迎访问我的导航页🌸~
+    html: '<blockquote><p>我的网站是一个集成了很多工具的导航页。它提供了最新的各种工具和资料，包括最新的AI工具，方便用户根据需要直接跳转到对应的链接。</p>
+    <p>无论你是需要查找最新的软件工具、学习编程知识、获取设计灵感，还是寻找免费的学习资源，我的网站都能满足你的需求。</p>
+    <p>我们不断更新和添加新的工具和资源，确保你始终能够找到最新、最有用的内容。通过我的网站，你可以省去在不同网站之间切换的麻烦，一站式获取你所需的一切。</p>
+    <p>无论你是学生、工程师、设计师还是任何对技术和创意感兴趣的人，我的网站都能为你提供帮助和支持。</p>
+    <p>请随时浏览我的网站，并将它添加到你的书签中，方便你随时访问。如果你有任何建议或需要帮助，请联系我们，我们将尽力满足你的需求。</p>
+    <p>没错，这个网页介绍就是我用AI生成的~</p>
+    </blockquote>'
   webmaster:
     head: 关于主站
     name: Sakura导航页
