@@ -16,12 +16,12 @@ menu:
   - name: 我的网站
     icon: far fa-star
     config: hotTools
-  - name: 素材资源
-    icon: fas fa-blog
-    config: news
   - name: 工具应用
     icon: fas fa-paper-plane
     config: imTools
+  - name: 素材资源
+    icon: fas fa-blog
+    config: news
   - name: 灵感设计
     icon: fas fa-tools
     config: devTools
@@ -38,15 +38,15 @@ devTools:
     description: NewBingAI
   - name: LogoBook
     url: http://www.logobook.com/
-    img: http://www.logobook.com/favicon.ico
+    img: /images/logos/logobook.ico
     description: 设计Logo
   - name: Gradientify
     url: https://www.iconshock.com/svg-icons/
     img: https://www.iconshock.com/svg-icons/favicon.ico
     description: 渐变色矢量图标设计
-  - name:
+  - name: illlustrations
     url: https://illlustrations.co/
-    img: https://illlustrations.co/favicon.ico
+    img: /images/logos/illlustrations.jpg
     description: 普通矢量图标设计
   - name: 易词云
     url: https://www.yciyun.com/
