@@ -16,13 +16,13 @@ menu:
   - name: 我的网站
     icon: far fa-star
     config: hotTools
-  - name: 资讯网站
+  - name: 素材资源
     icon: fas fa-blog
     config: news
-  - name: 通讯工具
+  - name: 工具应用
     icon: fas fa-paper-plane
     config: imTools
-  - name: 网站工具
+  - name: 方法灵感
     icon: fas fa-tools
     config: devTools
       
@@ -38,7 +38,7 @@ devTools:
     description: NewBingAI
   - name: Github
     url: https://github.com/
-    img: https://github.com//favicon.ico
+    img: https://github.com/favicon.ico
     description: 代码仓库
   - name: Github
     url: https://github.com/
