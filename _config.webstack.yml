@@ -25,7 +25,7 @@ menu:
   - name: 灵感设计
     icon: fas fa-tools
     config: devTools
-  - name: 学习
+  - name: 学习资料
     icon: fas fa-book
     config: Student
       
@@ -108,15 +108,15 @@ Student:
     url: https://bookboon.com/zh/
     img: https://bookboon.com/favicon.ico
     description: 书籍下载
-  - name: Bookboon
+  - name: Doyoudo
     url: https://www.doyoudo.com/
     img: https://www.doyoudo.com/favicon.ico
-    description: 书籍下载
+    description: 设计教程
   - name: WILEY
     url: https://onlinelibrary.wiley.com/journal/10970312
     img: https://onlinelibrary.wiley.com/favicon.ico
     description: 数学期刊
-  - name: WILEY
+  - name: Annals
     url: https://annals.math.princeton.edu/
     img: /images/logos/Annals.png
     description: 数学期刊
