@@ -112,6 +112,10 @@ news:
     url: https://musicmaker.site/
     img: /images/logos/Musicmaker.jpg
     description: 免费背景音乐
+  - name: Gitmoji
+    url: https://gitmoji.dev/
+    img: https://gitmoji.dev/static/apple-icon-57x57.png
+    description: emoji小图标
 
 
 Students:
@@ -139,10 +143,7 @@ Students:
     url: https://zj.zol.com.cn/
     img: https://zj.zol.com.cn/favicon.ico
     description: 装机清单预估
-- name: Gitmoji
-    url: https://gitmoji.dev/
-    img: https://gitmoji.dev/static/apple-icon-57x57.png
-    description: emoji小图标
+
 
 
 Game:

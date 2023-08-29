@@ -54,3 +54,7 @@
   url: https://www.deepl.com/translator/
   img: https://static.deepl.com/img/logo/DeepL_Logo_darkBlue_v2.svg
   description: 可以翻译文件
+- name: 轻略
+  url: https://gonglue.qinggl.com/app/img/icon.jsp/
+  img: https://qglimg.qinglm.com/qinggl/favicon.ico
+  description: 抓取网站ICO
