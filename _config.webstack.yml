@@ -115,6 +115,10 @@ news:
     url: https://game-icons.net/
     img: https://game-icons.net/favicon.ico
     description: 游戏图片素材
+  - name: LaTeX
+    url: http://www.latextemplates.com/
+    img: http://www.latextemplates.com/apple-touch-icon.png
+    description: 各类专业模板
 
 
 Student:

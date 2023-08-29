@@ -58,3 +58,7 @@
   url: https://gonglue.qinggl.com/app/img/icon.jsp/
   img: https://qglimg.qinglm.com/qinggl/favicon.ico
   description: 抓取网站ICO
+- name: Snippet
+  url: https://snippet-generator.app/
+  img: https://snippet-generator.app/favicon-32x32.png
+  description: 数学公式生成
