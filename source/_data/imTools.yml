@@ -42,10 +42,6 @@
   url: https://frp.starryfrp.com/
   img: https://frp.starryfrp.com/favicon.ico
   description: 免费的内网穿透
-- name: 谷歌翻译
-  url: https://translate.google.com.hk/?sl=en&tl=zh-CN&op=translate/
-  img: https://translate.google.com.hk/favicon.ico
-  description: 最好的翻译
 - name: Deelp
   url: hhttps://www.deepl.com/translator/
   img: https://static.deepl.com/img/logo/DeepL_Logo_darkBlue_v2.svg

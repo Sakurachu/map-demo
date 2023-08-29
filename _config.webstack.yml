@@ -104,15 +104,15 @@ news:
 
 
 Student:
-  - name: Bookboon
-    url: https://bookboon.com/zh/
-    img: https://bookboon.com/favicon.ico
-    description: 书籍下载
+  - name: 安娜的档案
+    url: https://zh.annas-archive.org/
+    img: https://zh.annas-archive.org/favicon.ico
+    description: 书籍下载🚀
   - name: Doyoudo
     url: https://www.doyoudo.com/
     img: https://www.doyoudo.com/favicon.ico
     description: 设计教程
-  - name: WILEY
+  - name: CPAM
     url: https://onlinelibrary.wiley.com/journal/10970312
     img: https://onlinelibrary.wiley.com/favicon.ico
     description: 数学期刊
