@@ -22,7 +22,7 @@ menu:
   - name: 工具应用
     icon: fas fa-paper-plane
     config: imTools
-  - name: 方法灵感
+  - name: 灵感设计
     icon: fas fa-tools
     config: devTools
       
@@ -36,26 +36,22 @@ devTools:
     url: https://bing.sakurachu.xyz/
     img: /images/logos/bing.png
     description: NewBingAI
-  - name: Github
-    url: https://github.com/
-    img: https://github.com/favicon.ico
-    description: 代码仓库
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
+  - name: LogoBook
+    url: http://www.logobook.com/
+    img: http://www.logobook.com/favicon.ico
+    description: 设计Logo
+  - name: Gradientify
+    url: https://www.iconshock.com/svg-icons/
+    img: https://www.iconshock.com/svg-icons/favicon.ico
+    description: 渐变色矢量图标设计
+  - name:
+    url: https://illlustrations.co/
+    img: https://illlustrations.co/favicon.ico
+    description: 普通矢量图标设计
+  - name: 易词云
+    url: https://www.yciyun.com/
+    img: https://www.yciyun.com/favicon.ico
+    description: 全能的词云生成工具
   - name: Github
     url: https://github.com/
     img: /images/logos/github.png
@@ -85,10 +81,10 @@ hotTools:
 
    
 news:
-  - name: Github
-    url: https://github.com/
-    img: /images/logos/github.png
-    description: 代码仓库
+  - name: Videvo
+    url: https://www.videvo.net/
+    img: https://www.videvo.net/favicon.ico
+    description: 免费视频素材
   - name: Github
     url: https://github.com/
     img: /images/logos/github.png
