@@ -115,6 +115,10 @@ news:
     url: https://gitmoji.dev/
     img: https://gitmoji.dev/static/apple-icon-57x57.png
     description: emoji小图标
+  - name: Gitmoji
+    url: https://game-icons.net/
+    img: https://game-icons.net/favicon.ico
+    description: 游戏图片素材
 
 
 Student:
@@ -141,10 +145,10 @@ Student:
 
 
 Games:
-  - name: 安娜的档案
+  - name: 游戏折扣
     url: https://indienova.com/steam/discount/4-0-0-0-0-0-0-0-0/p/1
     img: https://indienova.com/favicon.ico
-    description: 游戏折扣
+    description: Steam PSN Switch
 
 about:
   url: /about/
