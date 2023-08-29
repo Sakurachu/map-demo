@@ -91,14 +91,14 @@ news:
     url: https://bookboon.com/zh
     img: https://bookboon.com/favicon.ico
     description: 书籍下载
+  - name: 谷登堡计划
+    url: https://www.gutenberg.org/
+    img: https://www.gutenberg.org/favicon.ico
+    description: 书籍文档下载
   - name: 彼岸图网
     url: https://pic.netbian.com/
     img: https://pic.netbian.com/favicon.ico
     description: 4K壁纸下载
-  - name: WallpaperAbyss
-    url: https://wall.alphacoders.com/
-    img: https://wall.alphacoders.com/favicon.ico
-    description: 壁纸下载
   - name: IOSPA
     url: https://www.iosipa.cn/
     img: https://www.iosipa.cn/favicon.ico
