@@ -61,4 +61,4 @@
 - name: Snippet
   url: https://snippet-generator.app/
   img: https://snippet-generator.app/favicon-32x32.png
-  description: 数学公式生成
+  description: 编辑器代码生成
