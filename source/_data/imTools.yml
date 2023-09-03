@@ -62,3 +62,7 @@
   url: https://snippet-generator.app/
   img: https://snippet-generator.app/favicon-32x32.png
   description: 编辑器代码生成
+- name: 台风路径
+  url: http://typhoon.zjwater.gov.cn/
+  img: http://typhoon.zjwater.gov.cn/favicon.ico
+  description: 台风最新动态🚨
