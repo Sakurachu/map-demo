@@ -191,10 +191,10 @@ busuanzi:
   uv: 本站总访客数$uv
 
 custom:
-  head: |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
+  head: '<br /><blockquote><p>同时欢迎访问个人博客<a href="https://blog.sakurachu.cn" target="_blank" rel="noopener"> Sakura</a> 获取更多内容。</p></blockquote>'
+  |- # 以下内容插入到<head></head>标签内，可设置多行，注意每行开头至少四个空格
     <!-- 直接添加html内容即可 -->
     <!-- 可设置多行 -->
-    AAAA
   body: |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
     <!-- 直接添加html内容即可 -->
     <!-- 可设置多行 -->
