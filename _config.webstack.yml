@@ -195,12 +195,13 @@ custom:
     <!-- 直接添加html内容即可 -->
     <!-- 可设置多行 -->
 
-  body: /js/bj.js
+  body: ''
 #  |- # 以下内容插入到</body>标签之前，可设置多行，注意每行开头至少四个空格
 #    <!-- 直接添加html内容即可 -->
 #    <!-- 可设置多行 -->
 
 js:
+  body: /js/bj.js
   header: /js/header.js
   footer: /js/footer.js
   jquery: /js/jquery-1.11.1.min.js
