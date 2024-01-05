@@ -2,7 +2,7 @@
   url: https://igoutu.cn/
   img: /images/logos/Icons8.png
   description: 设计师们的想法
-- name: Icons8
+- name: Recompressor
   url: https://zh.recompressor.com/
   img: /images/logos/Recompressor.png
   description: 精准的图片压缩
@@ -18,10 +18,6 @@
   url: https://www.stickermule.com/trace
   img: https://www.stickermule.com/favicon.ico
   description: 简易在线抠图
-- name: 百度指数
-  url: https://index.baidu.com/v2/
-  img: https://www.baidu.com/favicon.ico
-  description: 人们的关注点
 - name: I ❤ IMG
   url: https://www.iloveimg.com/zh-cn
   img: https://www.iloveimg.com/favicon.ico
@@ -62,7 +58,12 @@
   url: https://snippet-generator.app/
   img: https://snippet-generator.app/favicon-32x32.png
   description: 编辑器代码生成
-- name: 台风路径
-  url: http://typhoon.zjwater.gov.cn/
-  img: http://typhoon.zjwater.gov.cn/favicon.ico
-  description: 台风最新动态🚨
+- name: 视频解析
+  url: https://youtube.iiilab.com/
+  img: https://iiilab.nos-eastchina1.126.net/video/favicon.ico
+  description: 各大网站视频下载
+- name: 图片去色
+  url: https://blackandwhite.imageonline.co/cn/
+  img: https://blackandwhite.imageonline.co/favicon.png
+  description: 彩色图片转黑白
+
