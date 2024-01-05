@@ -250,3 +250,17 @@ function switchNightMode() {
         console.log(' ');
     }
 }
+
+window.onload = function() {
+    changeBackground();
+};
+
+
+function changeBackground() {
+    var img = ["https://images.unsplash.com/photo-1612638466556-11523041567a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+        "https://images.unsplash.com/photo-1612639330314-92851128a126?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80",
+        "https://images.unsplash.com/photo-1612638627844-79788b268365?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1350&q=80"]
+
+    var index = Math.floor(Math.random() * img.length);
+    $("#search-box").css("background-image", "url(" + img[index] + ")");
+}
