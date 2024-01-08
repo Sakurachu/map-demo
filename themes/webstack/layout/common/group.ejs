@@ -1,5 +1,5 @@
 <script>
-  function clickHandler(event) {
+  function handleClick(event) {
     const menu = event.target.dataset.menu;
     if (menu.name === "Test") {
       // 弹出输入密码框
@@ -35,7 +35,7 @@
 <div class="row">
   <% menus.forEach(function(menu) { %>
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="clickHandler(event)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<%= menu.url %>">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="handleClick('<%= menu.name %>', '<%= menu.url %>')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<%= menu.url %>">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
           <img data-src="<%= menu.img %>" class="lozad img-circle" width="40">
