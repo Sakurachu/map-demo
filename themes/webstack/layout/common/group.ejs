@@ -1,6 +1,7 @@
 <script>
-  function clickHandler(menu) {
-    //const menu = event.target.dataset.menu;
+  function clickHandler(event) {
+    const menu = event.target.dataset.menu;
+    alert("菜单名称不为 Test，已直接跳转到链接。"+menu.name);
     if (menu.name === "Icons8") {
       // 弹出输入密码框
       const input = prompt("请输入密码：");
