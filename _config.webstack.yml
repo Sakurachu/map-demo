@@ -73,6 +73,10 @@ hotTools:
     url: https://bing.sakurachu.xyz/
     img: /images/logos/bing.png
     description: 国内可用🔥
+  - name: Humsun
+    url: 私密链接需要访问密码
+    img: /images/logos/Logo2.ico
+    description: 国内可用🔥
   - name: 个人博客
     url: https://blog.sakurachu.cn/
     img: /images/logos/github.png
