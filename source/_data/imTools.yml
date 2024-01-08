@@ -30,10 +30,10 @@
   url: https://www.nomoreransom.org/zh/
   img: /images/logos/No More Ransom.png
   description: 解救被勒索的文件
-- name: Bigjpg
-  url: https://bigjpg.com/
-  img: https://bigjpg.com/favicon.ico
-  description: AI放大模糊的小图
+- name: PhotoKit
+  url: https://photokit.com/editor/?lang=zh
+  img: https://photokit.com/favicon.ico
+  description: AI放大模糊的图
 - name: Convertio
   url: https://convertio.co/zh/
   img: https://convertio.co/favicon.ico

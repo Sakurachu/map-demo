@@ -1,5 +1,4 @@
 function search() {
-    changeBackground();
     $(".search-icon").css("opacity", "1");
     var listIndex = -1;
     var hotList = 0;
@@ -252,14 +251,3 @@ function switchNightMode() {
     }
 }
 
-
-
-
-function changeBackground() {
-    var img = ["https://tse1-mm.cn.bing.net/th/id/OIP-C.a_2XJOKnYxsnGU-tYazCWwHaF7?rs=1&pid=ImgDetMain",
-        "https://sc.68design.net/photofiles/202104/y0ZaKVXVx2.jpg",
-        "https://ts1.cn.mm.bing.net/th/id/R-C.c2f6165e1acf6b986a20e8b676f13bdd?rik=Dm%2bD%2fgeM4oqgBw&riu=http%3a%2f%2fwww.quazero.com%2fuploads%2fallimg%2f140303%2f1-140303215045.jpg&ehk=sdIsCQj%2bvjKfUs%2fDw%2fZekILroLb1ALwbKghApSPIq4U%3d&risl=&pid=ImgRaw&r=0"]
-
-    var index = Math.floor(Math.random() * img.length);
-    $("#search-box").css("background-image", "url(" + img[index] + ")");
-}
