@@ -1,8 +1,28 @@
+<script>
+  function clickHandler(event) {
+    const menu = event.target.dataset.menu;
+    if (menu.name === "Icons8") {
+      // 弹出输入密码框
+      const input = prompt("请输入密码：");
+      if (input === "123456") {
+        // 密码正确，跳转链接
+        window.open(menu.url, "_blank");
+      } else {
+        // 密码错误，提示错误信息
+        alert("密码错误！");
+      }
+    } else {
+      // 直接跳转链接
+      window.open(menu.url, "_blank");
+    }
+  }
+</script>
+
 <h4 class="text-gray"><i class="linecons-tag" style="margin-right: 7px;" id="<%= e.name %>"></i><%= e.name %></h4>
 <div class="row">
   <% menus.forEach(function(menu) { %>
   <div class="col-sm-3">
-    <div class="xe-widget xe-conversations box2 label-info" onclick="window.open('<%= menu.url %>', '_blank')" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<%= menu.url %>">
+    <div class="xe-widget xe-conversations box2 label-info" onclick="clickHandler(event)" data-toggle="tooltip" data-placement="bottom" title="" data-original-title="<%= menu.url %>">
       <div class="xe-comment-entry">
         <a class="xe-user-img">
           <img data-src="<%= menu.img %>" class="lozad img-circle" width="40">
