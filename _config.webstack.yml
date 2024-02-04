@@ -65,6 +65,10 @@ hotTools:
     url: https://www.sakurachu.cn/
     img: /images/logos/blog-logo.png
     description: Welcome🌸
+  - name: Gemini
+    url: Google大模型GeminiPro
+    img: https://www.google.com/favicon.ico
+    description: GeminiPro
   - name: ChatGPT
     url: https://chat.sakurachu.cn/
     img: /images/logos/chat.png
