@@ -66,4 +66,8 @@
   url: https://blackandwhite.imageonline.co/cn/
   img: https://blackandwhite.imageonline.co/favicon.png
   description: 彩色图片转黑白
+- name: UomgAPI
+  url: hhttps://api.uomg.com
+  img: hhttps://api.uomg.com/assets/favicon.ico
+  description: 免费免登陆的API测试接口
 
