@@ -303,7 +303,9 @@ function showTime() {
         month = extra(month);
         minute = extra(minute);
         second = extra(second);
-        document.getElementById("time-display").innerHTML = year + " 年 " + month + " 月 " + date + " 日 " + hour + "：" + minute + "：" + second + "\n" + weekday[num];
+        document.getElementById("time-day").innerHTML = year + " 年 " + month + " 月 " + date + " 日 ";
+        document.getElementById("time-time").innerHTML = hour + "：" + minute + "：" + second + "\n" + weekday[num];
+        document.getElementById("time-weekday").innerHTML = weekday[num];
         t = setTimeout(time, 1000); //设定定时器，循环运行
     }
 
