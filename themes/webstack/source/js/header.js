@@ -251,6 +251,7 @@ function switchNightMode() {
     }
 }
 
+//检测用户访问隐私链接密码
 function handleClick(menuName, url) {
     if (menuName === "Humsun") {
         // 弹出密码输入框，进行验证
