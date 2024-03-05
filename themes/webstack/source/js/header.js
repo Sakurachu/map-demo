@@ -252,7 +252,6 @@ function switchNightMode() {
 }
 
 function handleClick(menuName, url) {
-    <script src="http://pv.sohu.com/cityjson?ie=utf-8"></script>
     if (menuName === "Humsun") {
         // 弹出密码输入框，进行验证
         var password = prompt("请输入密码：", "");
@@ -261,8 +260,7 @@ function handleClick(menuName, url) {
             if (password === "hsdynam") {
                 window.open("http://www.hsdynam.com:808/", '_blank');
             } else {
-                alert("密码错误，IP已被记录，无法跳转！若非本站点管理员请不要随意点击尝试，多次失败可能会被拉黑IP，导致后续无法使用该导航页！\r\n"+
-                    returnCitySN['cip'] + returnCitySN['cname']);
+                alert("密码错误，IP已被记录，无法跳转！若非本站点管理员请不要随意点击尝试，多次失败可能会被拉黑IP，导致后续无法使用该导航页！");
             }
         }
     }
