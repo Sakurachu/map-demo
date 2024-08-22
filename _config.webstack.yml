@@ -58,6 +58,10 @@ devTools:
     url: https://www.yciyun.com/
     img: https://www.yciyun.com/favicon.ico
     description: 全能词云生成工具
+  - name: Draw
+    url: https://draw.io
+    img: https://draw.io/favicon.ico
+    description: 矢量图标在线设计
 
 
 hotTools:
@@ -97,7 +101,7 @@ news:
     description: 高质量免费视频
   - name: Smartmockups
     url: https://smartmockups.com/zh/
-    img: https://smartmockups.com/zh/favicon.ico
+    img: https://smartmockups.com/apple-touch-icon.png
     description: 生成样机产品实景图
   - name: All iconsets
     url: https://icon-icons.com/
