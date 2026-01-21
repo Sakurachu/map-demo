@@ -81,14 +81,15 @@ hotTools:
     url: https://bing.sakurachu.xyz/
     img: /images/logos/bing.png
     description: 国内可用🔥
+  - name: 个人网站
+    url: https://my.sakurachu.cn/
+    img: https://my.sakurachu.cn/favicon.ico
+    description: 个人简介✨
   - name: Humsun
     url: 私密链接需要访问密码，请勿随意点击。
     img: /images/logos/Logo2.ico
     description: 私用网站，请勿随意点击⚠️
-  - name: 个人网站
-    url: https://my.sakurachu.cn/
-    img: https://my.sakurachu.cn/favicon.ico
-    description: 个人简介
+
 
 news:
   - name: Videvo
@@ -200,7 +201,7 @@ aboutPage:
     url: https://www.sakurachu.cn
     img: /images/logos/blog-logo.png
     description: 交流分享互联网科技
-    html: '<br /><blockquote><p>同时欢迎访问个人博客<a href="https://blog.sakurachu.cn" target="_blank" rel="noopener"> Sakura</a> 获取更多内容。</p></blockquote>'
+    html: '<br /><blockquote><p>同时欢迎访问个人简介<a href="https://my.sakurachu.cn" target="_blank" rel="noopener"> Sakura</a> 获取更多内容。</p></blockquote>'
 
 since: 2020
 
