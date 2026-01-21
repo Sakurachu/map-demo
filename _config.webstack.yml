@@ -85,10 +85,10 @@ hotTools:
     url: 私密链接需要访问密码，请勿随意点击。
     img: /images/logos/Logo2.ico
     description: 私用网站，请勿随意点击⚠️
-  - name: 个人博客
-    url: https://blog.sakurachu.cn/
-    img: /images/logos/github.png
-    description: 建设中🚧...
+  - name: 个人网站
+    url: https://my.sakurachu.cn/
+    img: https://my.sakurachu.cn/favicon.ico
+    description: 个人简介
 
 news:
   - name: Videvo
