@@ -69,10 +69,6 @@ hotTools:
     url: https://www.sakurachu.cn/
     img: /images/logos/blog-logo.png
     description: Welcome🌸
-  - name: Gemini
-    url: Google大模型GeminiPro
-    img: /images/logos/google.ico
-    description: GeminiPro
   - name: ChatGPT
     url: https://chat.sakurachu.cn/
     img: /images/logos/chat.png
@@ -85,12 +81,6 @@ hotTools:
     url: https://my.sakurachu.cn/
     img: https://my.sakurachu.cn/favicon.ico
     description: 个人简介✨
-  - name: Humsun
-    url: 私密链接需要访问密码，请勿随意点击。
-    img: /images/logos/Logo2.ico
-    description: 私用网站，请勿随意点击⚠️
-
-
 news:
   - name: Videvo
     url: https://www.videvo.net/

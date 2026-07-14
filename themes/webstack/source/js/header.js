@@ -93,6 +93,19 @@ function search() {
         }).text().trim();
         return thisText
     }
+    function openSearch(value) {
+        var keyword = $.trim(value || "");
+        if (!keyword) {
+            layer.msg("请输入关键词！", {
+                time: 500
+            }, function () {
+                $("#txt").focus()
+            });
+            return false
+        }
+        window.open(searchData.thisSearch + encodeURIComponent(keyword), "_blank", "noopener");
+        return true
+    }
     function getHotkeyword(value) {
         $.ajax({
             type: "GET",
@@ -113,7 +126,7 @@ function search() {
                         $("#box ul li").eq(i).click(function () {
                             var thisText = filterChildren(this);
                             $("#txt").val(thisText);
-                            window.open(searchData.thisSearch + thisText);
+                            openSearch(thisText);
                             $("#box").css("display", "none")
                         });
                         if (i === 0) {
@@ -180,7 +193,9 @@ function search() {
             $("#txt").val(hotValue)
         }
         if (e.keyCode === 13) {
-            window.open(searchData.thisSearch + $("#txt").val());
+            if (!openSearch($("#txt").val())) {
+                return
+            }
             $("#box").css("display", "none");
             $("#txt").blur();
             $("#box ul li").removeClass("current");
@@ -224,15 +239,8 @@ function search() {
     $(".search-icon").css("background-position", searchData.thisSearchIcon);
     $("#search-btn").click(function () {
         var textValue = $("#txt").val();
-        if (textValue) {
-            window.open(searchData.thisSearch + textValue);
+        if (openSearch(textValue)) {
             $("#box ul").html("")
-        } else {
-            layer.msg("请输入关键词！", {
-                time: 500
-            }, function () {
-                $("#txt").focus()
-            })
         }
     })
 }
@@ -251,36 +259,9 @@ function switchNightMode() {
     }
 }
 
-//检测用户访问隐私链接密码
+//打开导航链接
 function handleClick(menuName, url) {
-    if (menuName === "Humsun") {
-        // 弹出密码输入框，进行验证
-        var password = prompt("请输入密码：", "");
-        if (password != null) {
-            // 这里假设密码是 "Sakura"，你可以根据实际情况修改
-            if (password === "hsdynam") {
-                window.open("http://www.hsdynam.com:808/", '_blank');
-            } else {
-                alert("密码错误，IP已被记录，无法跳转！若非本站点管理员请不要随意点击尝试，多次失败可能会被拉黑IP，导致后续无法使用该导航页！");
-            }
-        }
-    }
-    else if (menuName === "Gemini"){
-        // 弹出密码输入框，进行验证
-        var password = prompt("请输入密码：", "");
-        if (password != null) {
-            // 这里假设密码是 "Sakura"，你可以根据实际情况修改
-            if (password === "Sakura") {
-                window.open("https://gemini.sakurachu.cn/", '_blank');
-            } else {
-                alert("密码错误，IP已被记录，无法跳转！若非本站点管理员请不要随意点击尝试，多次失败可能会被拉黑IP，导致后续无法使用该导航页！");
-            }
-        }
-    }
-    else {
-        // 不是 "Test" 菜单直接跳转
-        window.open(url, '_blank');
-    }
+    window.open(url, '_blank', 'noopener');
 }
 
 
