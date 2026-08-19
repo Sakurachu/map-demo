@@ -23,7 +23,7 @@
     var finePointer = window.matchMedia && window.matchMedia("(hover: hover) and (pointer: fine)").matches;
     var reduceMotion = window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches;
 
-    if (!finePointer || reduceMotion || !document.body) {
+    if (!finePointer || !document.body) {
         return
     }
 
@@ -42,6 +42,9 @@
     document.body.appendChild(ring);
     document.body.appendChild(dot);
     document.documentElement.classList.add("sakura-cursor-enabled");
+    if (reduceMotion) {
+        document.documentElement.classList.add("sakura-cursor-reduced")
+    }
 
     var mouseX = window.innerWidth / 2;
     var mouseY = window.innerHeight / 2;
@@ -54,6 +57,10 @@
     var hasMoved = false;
 
     function createParticle(x, y) {
+        if (reduceMotion) {
+            return
+        }
+
         var particle = document.createElement("span");
         particle.className = "sakura-cursor-particle";
         particle.style.left = x + "px";
@@ -68,6 +75,10 @@
     }
 
     function createClickEffect(x, y) {
+        if (reduceMotion) {
+            return
+        }
+
         var ripple = document.createElement("span");
         var star = document.createElement("span");
 
@@ -88,13 +99,20 @@
     }
 
     function renderCursor() {
-        ringX += (mouseX - ringX) * 0.16;
-        ringY += (mouseY - ringY) * 0.16;
-        glowX += (mouseX - glowX) * 0.08;
-        glowY += (mouseY - glowY) * 0.08;
+        if (reduceMotion) {
+            ringX = mouseX;
+            ringY = mouseY
+        } else {
+            ringX += (mouseX - ringX) * 0.16;
+            ringY += (mouseY - ringY) * 0.16;
+            glowX += (mouseX - glowX) * 0.08;
+            glowY += (mouseY - glowY) * 0.08
+        }
 
         ring.style.transform = "translate3d(" + (ringX - 20) + "px," + (ringY - 20) + "px,0)";
-        glow.style.transform = "translate3d(" + (glowX - 110) + "px," + (glowY - 110) + "px,0)";
+        if (!reduceMotion) {
+            glow.style.transform = "translate3d(" + (glowX - 110) + "px," + (glowY - 110) + "px,0)"
+        }
         animationFrameId = window.requestAnimationFrame(renderCursor)
     }
 

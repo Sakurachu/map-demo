@@ -8,7 +8,7 @@
   pointer-events: none;
 }
 
-@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+@media (hover: hover) and (pointer: fine) {
   html.sakura-cursor-enabled,
   html.sakura-cursor-enabled * {
     cursor: none !important;
@@ -98,6 +98,18 @@
   .sakura-cursor-dot.is-hidden,
   .sakura-cursor-glow.is-hidden {
     opacity: 0;
+  }
+
+  html.sakura-cursor-reduced .sakura-cursor-glow,
+  html.sakura-cursor-reduced .sakura-cursor-particle,
+  html.sakura-cursor-reduced .sakura-click-ripple,
+  html.sakura-cursor-reduced .sakura-click-star {
+    display: none;
+  }
+
+  html.sakura-cursor-reduced .sakura-cursor-ring::before,
+  html.sakura-cursor-reduced .sakura-cursor-dot::before {
+    transition: none;
   }
 
   .sakura-cursor-particle {
