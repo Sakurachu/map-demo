@@ -1,0 +1,163 @@
+.sakura-cursor-ring,
+.sakura-cursor-dot,
+.sakura-cursor-glow,
+.sakura-cursor-particle,
+.sakura-click-ripple,
+.sakura-click-star {
+  display: none;
+  pointer-events: none;
+}
+
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  html.sakura-cursor-enabled,
+  html.sakura-cursor-enabled * {
+    cursor: none !important;
+  }
+
+  .sakura-cursor-ring,
+  .sakura-cursor-dot,
+  .sakura-cursor-glow,
+  .sakura-cursor-particle,
+  .sakura-click-ripple,
+  .sakura-click-star {
+    display: block;
+    position: fixed;
+  }
+
+  .sakura-cursor-ring,
+  .sakura-cursor-dot,
+  .sakura-cursor-glow {
+    left: 0;
+    top: 0;
+    opacity: 1;
+    transition: opacity 0.2s ease;
+    will-change: transform;
+  }
+
+  .sakura-cursor-ring {
+    width: 40px;
+    height: 40px;
+    z-index: 20002;
+  }
+
+  .sakura-cursor-ring::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: 2px solid rgba(239, 91, 108, 0.72);
+    border-radius: 50%;
+    background: rgba(255, 151, 168, 0.05);
+    box-shadow: 0 0 16px rgba(239, 91, 108, 0.32);
+    transition: transform 0.18s ease, border-color 0.18s ease, background-color 0.18s ease, box-shadow 0.18s ease;
+  }
+
+  .sakura-cursor-ring.is-hovering::before {
+    transform: scale(1.4);
+    border-color: rgba(184, 90, 218, 0.88);
+    background: rgba(239, 91, 108, 0.13);
+    box-shadow: 0 0 24px rgba(184, 90, 218, 0.48);
+  }
+
+  .sakura-cursor-ring.is-clicking::before {
+    transform: scale(0.78);
+    border-color: rgba(239, 91, 108, 1);
+  }
+
+  .sakura-cursor-dot {
+    width: 8px;
+    height: 8px;
+    z-index: 20003;
+  }
+
+  .sakura-cursor-dot::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ef5b6c, #b85ada);
+    box-shadow: 0 0 10px rgba(239, 91, 108, 0.82);
+    transition: transform 0.12s ease;
+  }
+
+  .sakura-cursor-dot.is-clicking::before {
+    transform: scale(1.7);
+  }
+
+  .sakura-cursor-glow {
+    width: 220px;
+    height: 220px;
+    z-index: 19998;
+    border-radius: 50%;
+    background: radial-gradient(circle, rgba(255, 126, 151, 0.14) 0%, rgba(184, 90, 218, 0.07) 38%, transparent 72%);
+    filter: blur(18px);
+  }
+
+  .sakura-cursor-ring.is-hidden,
+  .sakura-cursor-dot.is-hidden,
+  .sakura-cursor-glow.is-hidden {
+    opacity: 0;
+  }
+
+  .sakura-cursor-particle {
+    width: 5px;
+    height: 5px;
+    z-index: 20000;
+    border-radius: 50%;
+    background: linear-gradient(135deg, #ff879b, #b85ada);
+    box-shadow: 0 0 7px rgba(239, 91, 108, 0.58);
+    animation: sakura-particle-fade 0.55s ease-out forwards;
+  }
+
+  .sakura-click-ripple {
+    width: 20px;
+    height: 20px;
+    z-index: 20000;
+    border: 2px solid rgba(239, 91, 108, 0.75);
+    border-radius: 50%;
+    animation: sakura-ripple-expand 0.65s ease-out forwards;
+  }
+
+  .sakura-click-star {
+    z-index: 20001;
+    color: #ef5b6c;
+    font-size: 18px;
+    line-height: 1;
+    text-shadow: 0 0 8px rgba(184, 90, 218, 0.62);
+    animation: sakura-star-float 0.7s ease-out forwards;
+  }
+
+  @keyframes sakura-particle-fade {
+    from {
+      opacity: 0.82;
+      transform: translate(-50%, -50%) scale(1);
+    }
+    to {
+      opacity: 0;
+      transform: translate(calc(-50% + var(--particle-x)), calc(-50% + var(--particle-y))) scale(0.2);
+    }
+  }
+
+  @keyframes sakura-ripple-expand {
+    from {
+      opacity: 0.9;
+      transform: translate(-50%, -50%) scale(0.4);
+    }
+    to {
+      opacity: 0;
+      transform: translate(-50%, -50%) scale(4.2);
+    }
+  }
+
+  @keyframes sakura-star-float {
+    from {
+      opacity: 1;
+      transform: translate(-50%, -45%) scale(0.65) rotate(0deg);
+    }
+    to {
+      opacity: 0;
+      transform: translate(-50%, -160%) scale(1.25) rotate(35deg);
+    }
+  }
+}

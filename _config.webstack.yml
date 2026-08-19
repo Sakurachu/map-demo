@@ -223,6 +223,7 @@ js:
   xenonToggles: /js/xenon-toggles.min.js
   xenonCustom: /js/xenon-custom.min.js
   lozad: /js/lozad.min.js
+  effects: /js/page-effects.js
   html5shiv: /js/html5shiv.min.js
   respond: /js/respond.min.js
   busuanzi: https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js
@@ -237,3 +238,4 @@ css:
   xenonComponents: /css/xenon-components.min.css
   xenonSkins: /css/xenon-skins.min.css
   nav: /css/nav.min.css
+  effects: /css/page-effects.css
