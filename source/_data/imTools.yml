@@ -22,6 +22,10 @@
   url: https://www.iloveimg.com/zh-cn
   img: https://www.iloveimg.com/favicon.ico
   description: 全能图片处理工具
+- name: Ezgif 图片优化
+  url: https://ezgif.com/optimize
+  img: /images/logos/image-optimize.svg
+  description: 在线压缩和优化动图
 - name: AlternativeTo
   url: https://alternativeto.net/
   img: https://alternativeto.net/favicon.ico
@@ -70,4 +74,3 @@
   url: https://api.uomg.com
   img: https://api.uomg.com/assets/favicon.ico
   description: 免费免登陆的API测试接口
-

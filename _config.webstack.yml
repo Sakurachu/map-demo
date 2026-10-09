@@ -34,14 +34,6 @@ menu:
       
 
 devTools:
-  - name: ChatGPT
-    url: https://chat.sakurachu.cn/
-    img: /images/logos/chat.png
-    description: 国内可用🔥
-  - name: NewBing
-    url: https://bing.sakurachu.xyz/
-    img: /images/logos/bing.png
-    description: 国内可用🔥
   - name: LogoBook
     url: http://www.logobook.com/
     img: /images/logos/logobook.ico
@@ -69,14 +61,14 @@ hotTools:
     url: https://www.sakurachu.cn/
     img: /images/logos/blog-logo.png
     description: Welcome🌸
-  - name: ChatGPT
-    url: https://chat.sakurachu.cn/
-    img: /images/logos/chat.png
-    description: 国内可用🔥
-  - name: NewBing
-    url: https://bing.sakurachu.xyz/
-    img: /images/logos/bing.png
-    description: 国内可用🔥
+  - name: 播客网站
+    url: https://blog.chzih.com/
+    img: /images/logos/podcast.svg
+    description: 我的播客与内容分享🎙️
+  - name: 日程表
+    url: https://ks.chzih.com/
+    img: /images/logos/calendar.svg
+    description: 查看我的日程安排📅
   - name: 个人网站
     url: https://my.sakurachu.cn/
     img: https://my.sakurachu.cn/favicon.ico
